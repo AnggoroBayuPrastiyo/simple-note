@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Tailwind</title>
+  </head>
+  <body>
+    <main class="w-screen min-h-screen flex justify-center">
+      <div class="w-[480px] h-full bg-slate-300 p-4 mt-4">
+        <h1 class="font-semibold text-lg text-center">Latihan</h1>
+        <form id="formInput" class="flex flex-col gap-3 mt-6">
+          <h2>NOTE</h2>
+          <textarea id="catatan" class="min-h-36 p-3 rounded-md" required>
+          </textarea>
+          <button type="submit" class="bg-blue-500 text-white py-2 rounded-lg">
+            SUBMIT
+          </button>
+        </form>
+        <div id="parent" class="flex flex-col gap-4"></div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
